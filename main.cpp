@@ -9,6 +9,9 @@
 
 int main()
 {
-	std::cout << "Hello World!" << std::endl;
+	for (int a = 0; a < 3; ++a)
+	{
+		std::cout << "Hello World!" << std::endl;
+	}
 	return 0;
 }
